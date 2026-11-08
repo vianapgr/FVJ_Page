@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FVJ | Stack — Soluções Digitais & Alta Performance</title>
+    
+    <!-- Google Fonts Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Estilos Externos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-content">
+            <div class="logo">
+                FVJ <span>| STACK</span>
+            </div>
+            <button class="btn-cta-nav" onclick="openContactModal()">Falar Conosco</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="badge-hero">Engenharia Digital & Design</div>
+            <h1>DO ZERO, AO DIGITAL COMPLETO.</h1>
+            <p>Construímos ecossistemas digitais robustos, sites de alta conversão, automações inteligentes e identidades visuais marcantes para empresas que buscam liderança de mercado.</p>
+            <div class="hero-actions">
+                <button class="btn-primary" onclick="openContactModal()">
+                    Agendar Consultoria
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </button>
+                <a href="#trabalhos" class="btn-secondary">
+                    Ver Projetos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Demonstração em Vídeo -->
+    <section class="video-section" id="trabalhos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos Trabalhos em Ação</h2>
+                <p class="section-subtitle">Acompanhe na prática como desenvolvemos plataformas de alto impacto para nossos clientes.</p>
+            </div>
+
+            <div class="video-grid">
+                <!-- Player de Vídeo -->
+                <div class="video-container">
+                    <div class="video-wrapper">
+                        <!-- Substitua o src pelo arquivo de vídeo real MP4 na sua pasta ou embed do Youtube -->
+                        <video controls poster="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80">
+                            <source src="seu-video-demonstrativo.mp4" type="video/mp4">
+                            Seu navegador não suporta a exibição de vídeos.
+                        </video>
+                    </div>
+                </div>
+
+                <!-- Detalhes do Vídeo -->
+                <div class="video-info-list">
+                    <div class="video-info-card">
+                        <h4>Landing Pages Estratégicas</h4>
+                        <p>Estruturação focada em conversão contínua e carregamento ultra-rápido.</p>
+                    </div>
+                    <div class="video-info-card">
+                        <h4>Sistemas & Widgets Interativos</h4>
+                        <p>Ferramentas sob medida para enriquecer a navegação do utilizador.</p>
+                    </div>
+                    <div class="video-info-card">
+                        <h4>Identidade Visual Corporativa</h4>
+                        <p>Design sofisticado focado no posicionamento premium da sua marca.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Soluções -->
+    <section class="solutions">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossas Soluções Digitais</h2>
+                <p class="section-subtitle">Serviços desenvolvidos com tecnologia de ponta para alavancar a presença digital da sua marca.</p>
+            </div>
+            
+            <div class="cards-grid">
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                    </div>
+                    <h3>Sites & Landing Pages</h3>
+                    <p>Desenvolvimento web moderno com foco total em experiência do utilizador, velocidade de carregamento e taxa de conversão.</p>
+                    <span class="card-tag">Design de alta performance</span>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2 2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"></path><rect x="4" y="8" width="16" height="12" rx="2"></rect><line x1="9" y1="13" x2="9.01" y2="13"></line><line x1="15" y1="13" x2="15.01" y2="13"></line></svg>
+                    </div>
+                    <h3>Automações de IA</h3>
+                    <p>Sistemas automatizados de atendimento e triagem para escalar seus processos comerciais sem aumentar os seus custos operacionais.</p>
+                    <span class="card-tag">Processos no piloto automático</span>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                    </div>
+                    <h3>Widgets de Vendas</h3>
+                    <p>Componentes dinâmicos e interativos que guiam o cliente direto para o fechamento de contrato ou agendamento.</p>
+                    <span class="card-tag">Ferramentas para escala</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Não deixe a sua empresa de fora da evolução digital.</h2>
+                    <p>Na <strong>FVJ | Stack</strong>, unimos tecnologia refinada e design estratégico para transformar a forma como o seu negócio se posiciona na internet.</p>
+                    <p>Do planeamento à execução, construímos a infraestrutura exata que você precisa para transmitir autoridade e converter visitantes em novos clientes.</p>
+                </div>
+                <div class="about-features">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        </div>
+                        <div class="feature-text">
+                            <h4>Arquitetura Moderna</h4>
+                            <p>Código limpo, rápido e completamente otimizado para motores de busca.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        </div>
+                        <div class="feature-text">
+                            <h4>Design Exclusivo</h4>
+                            <p>Projetos totalmente personalizados, alinhados à identidade da sua empresa.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        </div>
+                        <div class="feature-text">
+                            <h4>Integração Comercial</h4>
+                            <p>Encaminhamento direto para a sua equipa de vendas via WhatsApp.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-box">
+                <h2>PRONTO PARA TRANSFORMAR O SEU NEGÓCIO?</h2>
+                <p>Fale com a nossa equipa especializada e solicite um diagnóstico para o seu projeto digital.</p>
+                <button class="btn-primary" onclick="openContactModal()">
+                    Iniciar Atendimento
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 FVJ | Stack. Todos os direitos reservados. Soluções Digitais & Tecnologia.</p>
+        </div>
+    </footer>
+
+    <!-- Modal de Contato com Roteamento para 3 Vendedores -->
+    <div class="modal-overlay" id="contactModal">
+        <div class="modal">
+            <button class="modal-close" onclick="closeContactModal()">&times;</button>
+            <h3>Fale com a FVJ | Stack</h3>
+            <p>Escolha um dos nossos consultores abaixo para iniciar o atendimento no WhatsApp:</p>
+            
+            <div class="whatsapp-options">
+                <a href="#" class="wa-btn" id="linkVendedor1" target="_blank">
+                    <span>Atendimento João</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+                <a href="#" class="wa-btn" id="linkVendedor2" target="_blank">
+                    <span>Atendimento Kauan</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+                <a href="#" class="wa-btn" id="linkVendedor3" target="_blank">
+                    <span>Atendimento Vinicius</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+            </div>
+
+            <a href="#" class="instagram-link" id="linkInstagram" target="_blank">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                <span>Siga nosso Instagram</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Script Externo -->
+    <script src="script.js"></script>
+</body>
+</html>
