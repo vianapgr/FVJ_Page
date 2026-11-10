@@ -205,6 +205,7 @@ header {
     width: 100%;
     height: 100%;
     border: none;
+    object-fit: cover;
 }
 
 .video-grid {
@@ -243,6 +244,83 @@ header {
 .video-info-card p {
     font-size: 0.85rem;
     color: var(--text-secondary);
+}
+
+/* ==========================================================================
+   Nova Seção: Galeria de Projetos Recentes (Vídeos Soltos)
+   ========================================================================== */
+.projects-gallery-section {
+    padding: 80px 0;
+    background-color: var(--bg-main);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.project-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-blue);
+    background: var(--bg-card-hover);
+}
+
+.project-video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Proporção 16:9 padrão */
+    background: #000;
+}
+
+.project-video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: none;
+}
+
+.project-card-info {
+    padding: 24px;
+}
+
+.project-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-blue-light);
+    background: rgba(30, 58, 138, 0.2);
+    border: 1px solid var(--accent-blue);
+    padding: 4px 12px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.project-card-info h3 {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+}
+
+.project-card-info p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
 }
 
 /* Seção de Soluções */

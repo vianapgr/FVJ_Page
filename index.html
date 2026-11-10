@@ -4,18 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FVJ | Stack — Soluções Digitais & Alta Performance</title>
-    
-    <!-- Google Fonts Import -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
-    <!-- Estilos Externos -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header -->
     <header>
         <div class="container nav-content">
             <div class="logo">
@@ -25,7 +21,6 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
             <div class="badge-hero">Engenharia Digital & Design</div>
@@ -43,7 +38,7 @@
         </div>
     </section>
 
-    <!-- Seção de Demonstração em Vídeo -->
+    <!-- Seção de Vídeo Principal -->
     <section class="video-section" id="trabalhos">
         <div class="container">
             <div class="section-header">
@@ -52,18 +47,14 @@
             </div>
 
             <div class="video-grid">
-                <!-- Player de Vídeo -->
                 <div class="video-container">
                     <div class="video-wrapper">
-                        <!-- Substitua o src pelo arquivo de vídeo real MP4 na sua pasta ou embed do Youtube -->
-                        <video controls poster="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80">
-                            <source src="seu-video-demonstrativo.mp4" type="video/mp4">
-                            Seu navegador não suporta a exibição de vídeos.
+                        <video controls autoplay muted loop>
+                           <source src="FVJ.video.mp4" type="video/mp4">
                         </video>
                     </div>
                 </div>
 
-                <!-- Detalhes do Vídeo -->
                 <div class="video-info-list">
                     <div class="video-info-card">
                         <h4>Landing Pages Estratégicas</h4>
@@ -82,7 +73,60 @@
         </div>
     </section>
 
-    <!-- Seção de Soluções -->
+    <!-- Seção Galeria de Projetos Recentes (VÍDEOS SOLTOS) -->
+    <section class="projects-gallery-section" id="galeria-projetos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projetos Recentes</h2>
+                <p class="section-subtitle">Confira demonstrações rápidas das plataformas e interfaces que desenvolvemos.</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Card Projeto 1 -->
+                <div class="project-card">
+                    <div class="project-video-wrapper">
+                        <video controls muted loop preload="fvj">
+                            <source src="video1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="project-card-info">
+                        <span class="project-tag">Landing Page</span>
+                        <h3>Gerenciamento de Estoque</h3>
+                        <p>Estrutura focada em automatizar o controle de entradas e saídas de mercadorias em tempo real. Ele otimiza a organização logística e reduz perdas operacionais com uma interface ágil e integrada.</p>
+                    </div>
+                </div>
+
+                <!-- Card Projeto 2 -->
+                <div class="project-card">
+                    <div class="project-video-wrapper">
+                        <video controls muted loop preload="fvj">
+                            <source src="video2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="project-card-info">
+                        <span class="project-tag">Lading Page</span>
+                        <h3>Empresa de Contabilidade</h3>
+                        <p>Desenvolvida com arquitetura de alta conversão, a landing page para contabilidade projeta autoridade imediata e elimina barreiras operacionais. Sua estrutura otimizada conduz o visitante de forma fluida até o fechamento comercial via WhatsApp.</p>
+                    </div>
+                </div>
+
+                <!-- Card Projeto 3 -->
+                <div class="project-card">
+                    <div class="project-video-wrapper">
+                        <video controls muted loop preload="fvj">
+                            <source src="video3.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="project-card-info">
+                        <span class="project-tag">Lading Page</span>
+                        <h3>Empresa Tráfego Pago</h3>
+                        <p>É projetada para acelerar a geração de leads qualificados e validar a autoridade da marca. Ela apresenta métricas de ROI de forma clara e direciona os visitantes diretamente para uma reunião de diagnóstico estratégico.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="solutions">
         <div class="container">
             <div class="section-header">
@@ -91,7 +135,6 @@
             </div>
             
             <div class="cards-grid">
-                <!-- Card 1 -->
                 <div class="card">
                     <div class="card-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
@@ -101,7 +144,6 @@
                     <span class="card-tag">Design de alta performance</span>
                 </div>
 
-                <!-- Card 2 -->
                 <div class="card">
                     <div class="card-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2 2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"></path><rect x="4" y="8" width="16" height="12" rx="2"></rect><line x1="9" y1="13" x2="9.01" y2="13"></line><line x1="15" y1="13" x2="15.01" y2="13"></line></svg>
@@ -111,7 +153,6 @@
                     <span class="card-tag">Processos no piloto automático</span>
                 </div>
 
-                <!-- Card 3 -->
                 <div class="card">
                     <div class="card-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
@@ -124,7 +165,6 @@
         </div>
     </section>
 
-    <!-- Seção Sobre -->
     <section class="about">
         <div class="container">
             <div class="about-content">
@@ -166,7 +206,6 @@
         </div>
     </section>
 
-    <!-- CTA Banner -->
     <section class="cta-banner">
         <div class="container">
             <div class="cta-box">
@@ -180,14 +219,12 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
         <div class="container">
             <p>&copy; 2026 FVJ | Stack. Todos os direitos reservados. Soluções Digitais & Tecnologia.</p>
         </div>
     </footer>
 
-    <!-- Modal de Contato com Roteamento para 3 Vendedores -->
     <div class="modal-overlay" id="contactModal">
         <div class="modal">
             <button class="modal-close" onclick="closeContactModal()">&times;</button>
